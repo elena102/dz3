@@ -1,0 +1,12 @@
+
+
+ALTER TABLE 'Имя Таблицы' RENAME COLUMN 'start_date' TO 'started_at.';
+
+ALTER TABLE  streams  ADD COLUMN finished_at TEXT NOT NULL;
+
+SELECT * FROM 'Имя Таблицы';
+
+INSERT INTO 'Имя Таблицы' [('Столбец 1', 'Столбец 2', 'Столбец 3', 'Столбец N')]  
+VALUES ('Значение 1', 'Значение 2', 'Значение 3', 'Значение N');
+
+
